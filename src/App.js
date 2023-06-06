@@ -107,11 +107,11 @@ function App() {
               bonding, and to be witnessed.
             </p>
           </div>
-          <div className="card">
+          <div className="card rsvp">
             <h3>RSVP</h3>
             <p></p>
           </div>
-          <div className="card">
+          <div className="card contact">
             <h3>Contact Benzi</h3>
             <p>
               If you have questions or want to invite additional people you can
@@ -130,7 +130,7 @@ function App() {
               <p>501-984-2925</p>
             </div>
           </div>
-          <div className="card">
+          <div className="card addto">
             <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y2dxM2VkaG02a3M2NGI5Z2M0bzY4YjlrNjRybTRiYjE2a3A2Y2I5azZvcW1jYzlrNmRqMzRvaHA3NCBiZW56aW5vd0Bt&tmsrc=benzinow%40gmail.com">
               <h3>Add to Google Calendar</h3>
             </a>
@@ -140,9 +140,9 @@ function App() {
             <p></p>
           </div>
 
-          <div className="card">
+          <div className="card help">
             <h3>Things you can do if you want to help out</h3>
-            <ul>
+            <ul className="flex">
               <li>bring food</li>
               <li>bring drinks</li>
               <li>bring ice</li>
@@ -159,10 +159,6 @@ function App() {
               <li>RSVP</li>
               <li>most importantly BRING YOURSELF</li>
             </ul>
-          </div>
-
-          <div className="card">
-            <h3>Signature Summer Cocktail</h3>
           </div>
         </div>
       </header>
