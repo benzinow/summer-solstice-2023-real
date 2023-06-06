@@ -109,7 +109,42 @@ function App() {
           </div>
           <div className="card rsvp">
             <h3>RSVP</h3>
-            <p></p>
+            <form>
+              <div className="form-item">
+                <label>Name</label>
+                <input type="name"></input>
+              </div>
+              <div className="form-item">
+                <label>Email</label>
+                <input type="email"></input>
+              </div>
+              <div className="form-item">
+                <label>Phone</label>
+                <input type="number"></input>
+              </div>
+              <div className="form-item">
+                <label>Plan to attend</label>
+                <input></input>
+              </div>
+              <div className="form-item">
+                <label>Comments</label>
+                <input type="email"></input>
+              </div>
+              <div className="form-item">
+                <label>Send Me Reminders</label>
+                <input type="email"></input>
+              </div>
+              <div className="form-item">
+                <label>Send Me Updates</label>
+                <input type="email"></input>
+              </div>
+              <button type="submit">So Shall It Be</button>
+            </form>
+            <div className="thanks">
+              <h3>Thank you!</h3>
+              <p>Your RSVP has been submitted.</p>
+              <p>You can re-submit at any time to change your response.</p>
+            </div>
           </div>
           <div className="card contact">
             <h3>Contact Benzi</h3>
