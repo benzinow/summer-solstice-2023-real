@@ -61,7 +61,7 @@ function App() {
               life.
             </p>
           </div>
-          <div className="card">
+          <div className="card wear">
             <h3>What to Wear</h3>
             <p>From 2pm - 8pm</p>
             <p>
@@ -75,20 +75,37 @@ function App() {
               good time to do an outfit swap or taking off everything!
             </p>
           </div>
-          <div className="card">
+          <div className="card activities">
             <h3>Activities to Expect</h3>
-            <ul>
-              <li>fire</li>
-              <li>dancing and singing</li>
-              <li>collaborative art</li>
-              <li>Ritual</li>
-              <li>Avacado pit carving</li>
-              <li>games</li>
-              <li>Storytelling</li>
-              <li>Bubbles</li>
-              <li>Yoga</li>
-              <li>Socializing</li>
-            </ul>
+            <div className="flex">
+              <ul>
+                <li>Fire</li>
+                <li>Dancing</li>
+                <li>Singing</li>
+                <li>Collaborative Art</li>
+                <li>Avacado Pit Carving</li>
+              </ul>
+              <ul>
+                <li>Storytelling</li>
+                <li>Bubbles</li>
+                <li>Yoga</li>
+                <li>Feasting</li>
+                <li>Socializing</li>
+              </ul>
+              <ul>
+                <li>Coloring</li>
+                <li>Games</li>
+                <li>Poetry</li>
+                <li>Cuddling</li>
+                <li>Vulnerability</li>
+              </ul>
+            </div>
+            <p>
+              At 7pm there will be a non-theistic ritual for the psychological
+              benefit of the creators and any willing participants. It is based
+              on a desire for pleasure, meaning, artistic expression, community
+              bonding, and to be witnessed.
+            </p>
           </div>
           <div className="card">
             <h3>RSVP</h3>

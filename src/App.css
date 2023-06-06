@@ -54,7 +54,8 @@ p {
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: auto 1fr auto;
+  grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+  grid-auto-rows: min-content;
   width: 100%;
   grid-gap: 20px;
 }
@@ -67,7 +68,7 @@ p {
 .flex {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 ul {
@@ -75,13 +76,26 @@ ul {
   font-family: "Cormorant Upright", serif;
   color: #16171b;
   font-weight: 700;
+  padding-left: 0;
 }
 
 .description {
   grid-column-start: 1;
   grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: span 14;
 }
 
 .wear {
-  height: auto;
+  grid-row-start: 15;
+  grid-row-end: span 8;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+}
+
+.activities {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 15;
+  grid-row-end: span 8;
 }
