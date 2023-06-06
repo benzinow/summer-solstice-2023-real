@@ -5,7 +5,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
+    <div className="header">
       <h1>Summer Solstice</h1>
       <h2>A Ritual of Abundance</h2>
       <div className="header-cards">

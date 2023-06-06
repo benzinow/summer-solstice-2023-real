@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Apple Inc.//macOS 13.4//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:America/Phoenix
+BEGIN:DAYLIGHT
+DTSTART:19420209T020000
+RDATE:19420209T020000
+RDATE:19440401T000100
+RDATE:19670430T020000
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19440101T000100
+RDATE:19440101T000100
+RDATE:19441001T000100
+RDATE:19671029T020000
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20230606T200002Z
+DESCRIPTION:This Summer Solstice celebration is a happy gathering to hon
+ or the bountiful gifts of the earth and the mighty sun. As we come toget
+ her on the longest day of the year\, let's embrace a special ritual to c
+ elebrate life and nourishment\, surrounded by good friends and the beaut
+ y of nature.\n\nThe Summer Solstice\, or midsummer\, is when the sun is 
+ at its highest point in the sky. It represents abundance\, growth\, and 
+ the peak of vitality. Today\, I invite you to join us in taking time to 
+ appreciate the richness that surrounds us. We're talking about delicious
+  food and the meaningful relationships and pure joy that make life beaut
+ iful.\n\nAs the sun shines bright\, let's rejoice in the blessings that 
+ nourish our bodies and souls. The feast before us will represent the ple
+ nty of nature's offerings and the wonderful flavors that delight our sen
+ ses. Together\, we'll enjoy juicy fruits\, wholesome grains\, and a colo
+ rful variety of fresh vegetables—gifts from the earth herself. By sharin
+ g this meal\, we strengthen our connections and feel grateful for the no
+ urishment we receive.\n\nThe Summer Solstice is about more than just foo
+ d—it's a time to honor and connect with others. It's a moment to engage 
+ with life's simple indulgences and feel the sheer satisfaction of being 
+ alive. So\, let's embrace affection and joy. Hugging\, kissing\, and exp
+ ressions of happiness are encouraged as we herald summer's warmth and en
+ ergy.\n\nLet's create a space filled with love\, laughter\, and fondness
+  in the company of dear friends\, loved ones\, and intriguing strangers.
+  We'll make memories\, share stories\, and engage in expressive conversa
+ tions that strengthen our bonds. Together\, we can create a special plac
+ e where laughter\, music\, and dancing blend with the sun's warm energy.
+ \n\nJoin us as we observe the Summer Solstice—a day of joy and gratitude
+ . Let's honor the earth\, seize the sun's life-giving power\, and relish
+  in surplus in our lives. Together\, we'll embody the spirit of midsumme
+ r\, creating a harmonious mix of nourishment\, friendship\, and sheer pl
+ easure in this special celebration of life.
+DTEND;TZID=America/Phoenix:20230624T100000
+DTSTAMP:20230606T200122Z
+DTSTART;TZID=America/Phoenix:20230624T090000
+LAST-MODIFIED:20230606T200102Z
+LOCATION:glenn and 1st\, Tucson\, AZ
+SEQUENCE:0
+SUMMARY:Summer Solstice: A Ritual of Abundance
+TRANSP:OPAQUE
+UID:8BAAB40D-FDF4-459A-84FE-EB2153026CDF
+URL;VALUE=URI:solworship.com
+END:VEVENT
+END:VCALENDAR
