@@ -112,15 +112,15 @@ function App() {
             <form>
               <div className="form-item">
                 <label>Name: </label>
-                <input type="name"></input>
+                <input type="name" required></input>
               </div>
               <div className="form-item">
                 <label>Email: </label>
-                <input type="email"></input>
+                <input type="email" required></input>
               </div>
               <div className="form-item">
                 <label>Phone: </label>
-                <input type="number"></input>
+                <input type="tel"></input>
               </div>
               <div className="form-item">
                 <label>Plan to attend:</label>
@@ -199,7 +199,7 @@ function App() {
               <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y2dxM2VkaG02a3M2NGI5Z2M0bzY4YjlrNjRybTRiYjE2a3A2Y2I5azZvcW1jYzlrNmRqMzRvaHA3NCBiZW56aW5vd0Bt&tmsrc=benzinow%40gmail.com">
                 <button>Add to Google Calendar</button>
               </a>
-              <a href="">
+              <a href="https://www.google.com/search?q=htmo+form+type+phone&rlz=1C5CHFA_enUS926US926&oq=htmo+form+type+phone&aqs=chrome..69i57j0i13i512j0i13i395i512.4482j1j4&sourceid=chrome&ie=UTF-8">
                 <button>Add to Apple Calendar</button>
               </a>
             </div>
