@@ -1,0 +1,64 @@
+label {
+  font-family: "Cormorant Upright", serif;
+  color: #16171b;
+  margin: 0;
+  font-weight: 700;
+}
+
+input {
+  border-radius: 10px;
+  border: none;
+  filter: drop-shadow(1px 1px 1px #16171b);
+  filter: grayscale(1);
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  filter: drop-shadow(1px 1px 1px #16171b);
+  background-color: #16171b;
+  color: #fff;
+  padding: 10px;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 20px;
+}
+
+.center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #16171b;
+}
+
+.thanks {
+  text-align: center;
+  font-size: 20px;
+}
+
+textarea {
+  border-radius: 10px;
+  border: none;
+  filter: drop-shadow(1px 1px 1px #16171b);
+  margin: 10px;
+  width: 70%;
+  filter: grayscale(1);
+}
+
+.form-comments {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-item {
+  margin: 10px;
+}
+
+.radio {
+  font-size: 15px;
+  filter: grayscale(1);
+}

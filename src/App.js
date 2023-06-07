@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Rsvp from "./components/Rsvp";
 import Email from "./images/email.svg";
 import Phone from "./images/phone.svg";
 
@@ -108,72 +109,7 @@ function App() {
             </p>
           </div>
           <div className="card rsvp">
-            <h3>RSVP</h3>
-            <form>
-              <div className="form-item">
-                <label>Name: </label>
-                <input type="name" required></input>
-              </div>
-              <div className="form-item">
-                <label>Email: </label>
-                <input type="email" required></input>
-              </div>
-              <div className="form-item">
-                <label>Phone: </label>
-                <input type="tel"></input>
-              </div>
-              <div className="form-item">
-                <label>Plan to attend:</label>
-                <div className="radio">
-                  <input
-                    type="radio"
-                    id="hellno"
-                    name="rsvp"
-                    value="hellno"
-                  ></input>
-                  <label for="hellno">Nope!</label>
-                  <input
-                    type="radio"
-                    id="probablynot"
-                    name="rsvp"
-                    value="probablynot"
-                  ></input>
-                  <label for="probablynot">Probably not</label>
-                  <input
-                    type="radio"
-                    id="planningto"
-                    name="rsvp"
-                    value="planningto"
-                  ></input>
-                  <label for="planningto">Planning to</label>
-                  <input
-                    type="radio"
-                    id="definately"
-                    name="rsvp"
-                    value="definately"
-                  ></input>
-                  <label for="definately">Definately!</label>
-                </div>
-              </div>
-              <div className="form-item form-comments">
-                <label>Comments:</label>
-                <textarea rows="5" cols="80"></textarea>
-              </div>
-              <div className="form-item">
-                <input type="checkbox"></input>
-                <label>Send Me Reminders</label>
-              </div>
-              <div className="form-item">
-                <input type="checkbox"></input>
-                <label>Send Me Updates</label>
-              </div>
-              <button type="submit">So Shall It Be</button>
-            </form>
-            <div className="thanks">
-              <h3>Thank you!</h3>
-              <p>Your RSVP has been submitted.</p>
-              <p>You can re-submit at any time to change your response.</p>
-            </div>
+            <Rsvp />
           </div>
           <div className="card contact">
             <h3>Contact Benzi</h3>
