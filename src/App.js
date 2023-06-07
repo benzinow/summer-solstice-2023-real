@@ -111,32 +111,61 @@ function App() {
             <h3>RSVP</h3>
             <form>
               <div className="form-item">
-                <label>Name</label>
+                <label>Name: </label>
                 <input type="name"></input>
               </div>
               <div className="form-item">
-                <label>Email</label>
+                <label>Email: </label>
                 <input type="email"></input>
               </div>
               <div className="form-item">
-                <label>Phone</label>
+                <label>Phone: </label>
                 <input type="number"></input>
               </div>
               <div className="form-item">
-                <label>Plan to attend</label>
-                <input></input>
+                <label>Plan to attend:</label>
+                <div className="radio">
+                  <input
+                    type="radio"
+                    id="hellno"
+                    name="rsvp"
+                    value="hellno"
+                  ></input>
+                  <label for="hellno">Nope!</label>
+                  <input
+                    type="radio"
+                    id="probablynot"
+                    name="rsvp"
+                    value="probablynot"
+                  ></input>
+                  <label for="probablynot">Probably not</label>
+                  <input
+                    type="radio"
+                    id="planningto"
+                    name="rsvp"
+                    value="planningto"
+                  ></input>
+                  <label for="planningto">Planning to</label>
+                  <input
+                    type="radio"
+                    id="definately"
+                    name="rsvp"
+                    value="definately"
+                  ></input>
+                  <label for="definately">Definately!</label>
+                </div>
+              </div>
+              <div className="form-item form-comments">
+                <label>Comments:</label>
+                <textarea rows="5" cols="80"></textarea>
               </div>
               <div className="form-item">
-                <label>Comments</label>
-                <input type="email"></input>
-              </div>
-              <div className="form-item">
+                <input type="checkbox"></input>
                 <label>Send Me Reminders</label>
-                <input type="email"></input>
               </div>
               <div className="form-item">
+                <input type="checkbox"></input>
                 <label>Send Me Updates</label>
-                <input type="email"></input>
               </div>
               <button type="submit">So Shall It Be</button>
             </form>
@@ -166,13 +195,14 @@ function App() {
             </div>
           </div>
           <div className="card addto">
-            <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y2dxM2VkaG02a3M2NGI5Z2M0bzY4YjlrNjRybTRiYjE2a3A2Y2I5azZvcW1jYzlrNmRqMzRvaHA3NCBiZW56aW5vd0Bt&tmsrc=benzinow%40gmail.com">
-              <h3>Add to Google Calendar</h3>
-            </a>
-            <a href="">
-              <h3>Add to Apple Calendar</h3>
-            </a>
-            <p></p>
+            <div className="flex">
+              <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y2dxM2VkaG02a3M2NGI5Z2M0bzY4YjlrNjRybTRiYjE2a3A2Y2I5azZvcW1jYzlrNmRqMzRvaHA3NCBiZW56aW5vd0Bt&tmsrc=benzinow%40gmail.com">
+                <button>Add to Google Calendar</button>
+              </a>
+              <a href="">
+                <button>Add to Apple Calendar</button>
+              </a>
+            </div>
           </div>
 
           <div className="card help">
@@ -186,7 +216,6 @@ function App() {
               <li>bring items for the altar</li>
               <li>Art to share</li>
               <li>Instruments</li>
-              <li>Bear costume</li>
               <li>coordinate carpool</li>
               <li>take pictures</li>
               <li>help with yardwork beforehand</li>

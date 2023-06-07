@@ -69,6 +69,7 @@ p {
   display: flex;
   align-items: center;
   gap: 20px;
+  justify-content: center;
 }
 
 ul {
@@ -136,14 +137,14 @@ label {
 }
 
 input {
-  border-radius: 20px;
+  border-radius: 10px;
   border: none;
   filter: drop-shadow(1px 1px 1px #16171b);
-  margin: 10px;
+  filter: grayscale(1);
 }
 
 button {
-  border-radius: 20px;
+  border-radius: 10px;
   border: none;
   filter: drop-shadow(1px 1px 1px #16171b);
   background-color: #16171b;
@@ -151,7 +152,7 @@ button {
   padding: 10px;
   font-family: "Berkshire Swash", cursive;
   font-size: 20px;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 button:hover {
@@ -162,4 +163,27 @@ button:hover {
 .thanks {
   text-align: center;
   font-size: 20px;
+}
+
+textarea {
+  border-radius: 10px;
+  border: none;
+  filter: drop-shadow(1px 1px 1px #16171b);
+  margin: 10px;
+  width: 70%;
+  filter: grayscale(1);
+}
+
+.form-comments {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-item {
+  margin: 10px;
+}
+
+.radio {
+  font-size: 15px;
+  filter: grayscale(1);
 }
