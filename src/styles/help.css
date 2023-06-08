@@ -3,13 +3,6 @@
   width: auto;
 }
 
-.help {
-  grid-column-start: 1;
-  grid-column-end: span 3;
-  grid-row-start: 23;
-  grid-row-end: span 10;
-}
-
 .help-list-item {
   display: flex;
   flex-direction: column;

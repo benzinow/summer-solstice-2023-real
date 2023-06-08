@@ -61,4 +61,11 @@ textarea {
 .radio {
   font-size: 15px;
   filter: grayscale(1);
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .radio {
+    flex-direction: column;
+  }
 }

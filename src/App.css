@@ -7,7 +7,6 @@
 .App {
   background-image: url(./images/summer-solstice-invite-banner.png);
   background-size: cover;
-  min-height: 100vh;
 }
 
 .App-header {
@@ -124,7 +123,68 @@ ul {
   grid-row-end: span 3;
 }
 
+.help {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 23;
+  grid-row-end: span 10;
+}
+
 .list-item-more {
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+  .App-header {
+    width: 900px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-auto-rows: min-content;
+    width: 900px;
+    grid-gap: 20px;
+  }
+
+  .description {
+    grid-row-end: span 16;
+  }
+
+  .wear {
+    grid-row-start: 17;
+    grid-row-end: span 10;
+  }
+
+  .activities {
+    grid-row-start: 17;
+    grid-row-end: span 10;
+  }
+
+  .addto {
+    grid-row-start: 21;
+    grid-row-end: span 4;
+  }
+
+  .help {
+    grid-row-start: 27;
+    grid-row-end: span 10;
+  }
+
+  .rsvp {
+    grid-row-end: span 15;
+  }
+
+  .contact {
+    grid-row-start: 16;
+  }
+}
+
+@media (max-width: 900px) {
+  .App {
+    background-size: fill;
+    width: 900px;
+  }
 }

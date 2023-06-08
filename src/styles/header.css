@@ -51,3 +51,27 @@ h2 {
   margin-top: 200px;
   align-self: end;
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+  }
+
+  .header-cards {
+    justify-content: center;
+  }
+}

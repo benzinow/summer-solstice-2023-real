@@ -133,10 +133,16 @@ function App() {
           </div>
           <div className="card addto">
             <div className="flex">
-              <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y2dxM2VkaG02a3M2NGI5Z2M0bzY4YjlrNjRybTRiYjE2a3A2Y2I5azZvcW1jYzlrNmRqMzRvaHA3NCBiZW56aW5vd0Bt&tmsrc=benzinow%40gmail.com">
+              <a
+                href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y2dxM2VkaG02a3M2NGI5Z2M0bzY4YjlrNjRybTRiYjE2a3A2Y2I5azZvcW1jYzlrNmRqMzRvaHA3NCBiZW56aW5vd0Bt&tmsrc=benzinow%40gmail.com"
+                target="_blank"
+              >
                 <button>Add to Google Calendar</button>
               </a>
-              <a href="https://www.google.com/search?q=htmo+form+type+phone&rlz=1C5CHFA_enUS926US926&oq=htmo+form+type+phone&aqs=chrome..69i57j0i13i512j0i13i395i512.4482j1j4&sourceid=chrome&ie=UTF-8">
+              <a
+                href="https://solworship.com/SummerSolstice-A_Ritual_of_Abundance.ics"
+                target="_blank"
+              >
                 <button>Add to Apple Calendar</button>
               </a>
             </div>

@@ -61,35 +61,43 @@ function Rsvp() {
             <div className="form-item">
               <label>Plan to attend:</label>
               <div className="radio">
-                <input
-                  type="radio"
-                  id="hellno"
-                  name="RSVP"
-                  value="hellno"
-                  required
-                />
-                <label htmlFor="hellno">Nope!</label>
-                <input
-                  type="radio"
-                  id="probablynot"
-                  name="RSVP"
-                  value="probablynot"
-                />
-                <label htmlFor="probablynot">Probably not</label>
-                <input
-                  type="radio"
-                  id="planningto"
-                  name="RSVP"
-                  value="planningto"
-                />
-                <label htmlFor="planningto">Planning to</label>
-                <input
-                  type="radio"
-                  id="definitely"
-                  name="RSVP"
-                  value="definitely"
-                />
-                <label htmlFor="definitely">Definitely!</label>
+                <div>
+                  <input
+                    type="radio"
+                    id="hellno"
+                    name="RSVP"
+                    value="hellno"
+                    required
+                  />
+                  <label htmlFor="hellno">Nope!</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="probablynot"
+                    name="RSVP"
+                    value="probablynot"
+                  />
+                  <label htmlFor="probablynot">Probably not</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="planningto"
+                    name="RSVP"
+                    value="planningto"
+                  />
+                  <label htmlFor="planningto">Planning to</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="definitely"
+                    name="RSVP"
+                    value="definitely"
+                  />
+                  <label htmlFor="definitely">Definitely!</label>
+                </div>
               </div>
             </div>
             <div className="form-item form-comments">
