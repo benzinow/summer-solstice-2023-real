@@ -169,12 +169,12 @@ ul {
 
   .wear {
     grid-row-start: 17;
-    grid-row-end: span 10;
+    grid-row-end: span 11;
   }
 
   .activities {
     grid-row-start: 17;
-    grid-row-end: span 10;
+    grid-row-end: span 11;
   }
 
   .addto {
@@ -183,7 +183,7 @@ ul {
   }
 
   .help {
-    grid-row-start: 27;
+    grid-row-start: 28;
     grid-row-end: span 10;
   }
 
@@ -288,11 +288,11 @@ ul {
     grid-column-start: 1;
     grid-column-end: span 3;
     grid-row-start: 1;
-    grid-row-end: span 29;
+    grid-row-end: span 30;
   }
 
   .wear {
-    grid-row-start: 38;
+    grid-row-start: 39;
     grid-row-end: span 6;
     grid-column-start: 1;
     grid-column-end: span 3;
@@ -301,35 +301,35 @@ ul {
   .activities {
     grid-column-start: 1;
     grid-column-end: span 3;
-    grid-row-start: 30;
+    grid-row-start: 31;
     grid-row-end: span 8;
   }
 
   .rsvp {
     grid-column-start: 1;
     grid-column-end: span 3;
-    grid-row-start: 44;
+    grid-row-start: 45;
     grid-row-end: span 10;
   }
 
   .contact {
     grid-column-start: 1;
     grid-column-end: span 3;
-    grid-row-start: 54;
+    grid-row-start: 55;
     grid-row-end: span 5;
   }
 
   .addto {
     grid-column-start: 1;
     grid-column-end: span 3;
-    grid-row-start: 59;
+    grid-row-start: 60;
     grid-row-end: span 3;
   }
 
   .help {
     grid-column-start: 1;
     grid-column-end: span 3;
-    grid-row-start: 62;
+    grid-row-start: 63;
     grid-row-end: span 10;
   }
 }
