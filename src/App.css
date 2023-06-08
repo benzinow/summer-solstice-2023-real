@@ -6,7 +6,7 @@
 
 .App {
   background-image: url(./images/summer-solstice-invite-banner.png);
-  background-size: cover;
+  background-size: contain;
 }
 
 .App-header {
@@ -140,15 +140,6 @@ ul {
     width: 900px;
   }
 
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
-    grid-auto-rows: min-content;
-    width: 900px;
-    grid-gap: 20px;
-  }
-
   .description {
     grid-row-end: span 16;
   }
@@ -183,8 +174,139 @@ ul {
 }
 
 @media (max-width: 900px) {
-  .App {
-    background-size: fill;
-    width: 900px;
+  .App-header {
+    width: 700px;
+  }
+
+  .description {
+    grid-row-end: span 22;
+  }
+
+  .wear {
+    grid-row-start: 31;
+    grid-row-end: span 10;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
+
+  .activities {
+    grid-row-start: 23;
+    grid-row-end: span 8;
+
+    grid-column-end: span 2;
+  }
+
+  .help {
+    grid-row-start: 41;
+  }
+}
+
+@media (max-width: 700px) {
+  .App-header {
+    width: 500px;
+  }
+
+  .description {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: span 19;
+  }
+
+  .wear {
+    grid-row-start: 28;
+    grid-row-end: span 6;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+  }
+
+  .activities {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 20;
+    grid-row-end: span 8;
+  }
+
+  .rsvp {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 34;
+    grid-row-end: span 14;
+  }
+
+  .contact {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 48;
+    grid-row-end: span 5;
+  }
+
+  .addto {
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 48;
+    grid-row-end: span 3;
+  }
+
+  .help {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 53;
+    grid-row-end: span 10;
+  }
+}
+
+@media (max-width: 500px) {
+  .App-header {
+    width: 300px;
+  }
+
+  .description {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: span 29;
+  }
+
+  .wear {
+    grid-row-start: 38;
+    grid-row-end: span 6;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+  }
+
+  .activities {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 30;
+    grid-row-end: span 8;
+  }
+
+  .rsvp {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 44;
+    grid-row-end: span 10;
+  }
+
+  .contact {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 54;
+    grid-row-end: span 5;
+  }
+
+  .addto {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 59;
+    grid-row-end: span 3;
+  }
+
+  .help {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 62;
+    grid-row-end: span 10;
   }
 }

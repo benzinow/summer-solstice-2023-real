@@ -56,7 +56,6 @@ h2 {
   h1 {
     font-size: 80px;
     text-align: center;
-    padding-top: 200px;
   }
 
   h2 {
@@ -70,8 +69,28 @@ h2 {
     width: 100%;
     align-content: center;
   }
-
   .header-cards {
     justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 45px;
   }
 }
