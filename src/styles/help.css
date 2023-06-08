@@ -44,26 +44,22 @@
   background-color: rgba(255, 255, 255, 0.85);
   color: #16171b;
   border-radius: 20px;
-  filter: drop-shadow(10px 10px 4px #16171b);
+  filter: drop-shadow(2px 2px 2px #16171b);
 }
 
 .food {
-  display: none;
   padding: 20px;
 }
 
 .drinks {
-  display: none;
   padding: 20px;
 }
 
 .art {
-  display: none;
   padding: 20px;
 }
 
 .altar {
-  display: none;
   padding: 20px;
 }
 
@@ -71,7 +67,7 @@
   width: 100%;
   display: flex;
   gap: 30px;
-  display: none;
+
   padding: 20px;
 }
 
