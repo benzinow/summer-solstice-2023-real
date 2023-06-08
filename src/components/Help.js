@@ -251,13 +251,25 @@ function Help() {
           <div className="funds">
             <div className="inline">
               <div className="payment-links">
-                <a href="https://cash.app/$benzih">
+                <a
+                  href="https://cash.app/$benzih"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button>Cash App</button>
                 </a>
-                <a href="https://account.venmo.com/u/benzinow">
+                <a
+                  href="https://account.venmo.com/u/benzinow"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button>Venmo</button>
                 </a>
-                <a href="https://www.paypal.com/paypalme/benzinow">
+                <a
+                  href="https://www.paypal.com/paypalme/benzinow"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button>Paypal</button>
                 </a>
               </div>

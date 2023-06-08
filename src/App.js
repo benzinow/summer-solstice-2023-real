@@ -136,12 +136,14 @@ function App() {
               <a
                 href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Y2dxM2VkaG02a3M2NGI5Z2M0bzY4YjlrNjRybTRiYjE2a3A2Y2I5azZvcW1jYzlrNmRqMzRvaHA3NCBiZW56aW5vd0Bt&tmsrc=benzinow%40gmail.com"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button>Add to Google Calendar</button>
               </a>
               <a
                 href="https://solworship.com/SummerSolstice-A_Ritual_of_Abundance.ics"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button>Add to Apple Calendar</button>
               </a>
