@@ -38,10 +38,10 @@ function App() {
                 nourish our bodies and souls. The feast before us will represent
                 the plenty of nature's offerings and the wonderful flavors that
                 delight our senses. Together, we'll enjoy juicy fruits,
-                wholesome grains, and a colorful variety of fresh
-                vegetables—gifts from the earth herself. By sharing this meal,
-                we strengthen our connections and feel grateful for the
-                nourishment we receive.
+                wholesome grains, a colorful variety of fresh vegetables, and
+                meats—gifts from the earth herself. By sharing this meal, we
+                strengthen our connections and feel grateful for the nourishment
+                we receive.
               </p>
               <p>
                 The Summer Solstice is about more than just food—it's a time to
@@ -87,24 +87,25 @@ function App() {
               <div className="flex">
                 <ul>
                   <li>Fire</li>
+                  <li>Yoga</li>
+                  <li>Games</li>
+                  <li>Poetry</li>
+                  <li>Bubbles</li>
+                </ul>
+                <ul>
                   <li>Dancing</li>
                   <li>Singing</li>
-                  <li>Collaborative Art</li>
-                  <li>Avacado Pit Carving</li>
+                  <li>Feasting</li>
+
+                  <li>Coloring</li>
+                  <li>Cuddling</li>
                 </ul>
                 <ul>
                   <li>Storytelling</li>
-                  <li>Bubbles</li>
-                  <li>Yoga</li>
-                  <li>Feasting</li>
                   <li>Socializing</li>
-                </ul>
-                <ul>
-                  <li>Coloring</li>
-                  <li>Games</li>
-                  <li>Poetry</li>
-                  <li>Cuddling</li>
-                  <li>Vulnerability</li>
+                  <li>Collaborative Art</li>
+                  <li>Avacado Pit Carving</li>
+                  <li>Vulnerability Activities</li>
                 </ul>
               </div>
               <p>
