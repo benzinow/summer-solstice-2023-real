@@ -2,6 +2,7 @@
 @import url(/src/styles/reset.css);
 @import url(/src/styles/header.css);
 @import url(/src/styles/rsvp.css);
+@import url(/src/styles/help.css);
 
 .App {
   background-image: url(./images/summer-solstice-invite-banner.png);
@@ -123,9 +124,7 @@ ul {
   grid-row-end: span 3;
 }
 
-.help {
-  grid-column-start: 1;
-  grid-column-end: span 3;
-  grid-row-start: 23;
-  grid-row-end: span 7;
+.list-item-more {
+  display: flex;
+  flex-direction: row;
 }

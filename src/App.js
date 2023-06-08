@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Help from "./components/Help";
 import Rsvp from "./components/Rsvp";
 import Email from "./images/email.svg";
 import Phone from "./images/phone.svg";
@@ -140,26 +141,7 @@ function App() {
               </a>
             </div>
           </div>
-
-          <div className="card help">
-            <h3>Things you can do if you want to help out</h3>
-            <ul className="flex">
-              <li>bring food</li>
-              <li>bring drinks</li>
-              <li>bring ice</li>
-              <li>bring flowers</li>
-              <li>bring firewood</li>
-              <li>bring items for the altar</li>
-              <li>Art to share</li>
-              <li>Instruments</li>
-              <li>coordinate carpool</li>
-              <li>take pictures</li>
-              <li>help with yardwork beforehand</li>
-              <li>contribute funds</li>
-              <li>RSVP</li>
-              <li>most importantly BRING YOURSELF</li>
-            </ul>
-          </div>
+          <Help />
         </div>
       </header>
     </div>

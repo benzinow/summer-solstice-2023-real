@@ -1,0 +1,87 @@
+.help-icon {
+  height: 50px;
+  width: auto;
+}
+
+.help {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 23;
+  grid-row-end: span 10;
+}
+
+.help-list-item {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  text-align: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.help-disclaimer {
+  width: 100%;
+  text-align: center;
+}
+
+.help-list {
+  display: flex;
+  justify-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.more-icon {
+  width: 10px;
+  height: auto;
+}
+
+.more-icon:hover {
+  filter: invert(100%);
+}
+
+.more-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #16171b;
+  border-radius: 20px;
+  filter: drop-shadow(10px 10px 4px #16171b);
+}
+
+.food {
+  display: none;
+  padding: 20px;
+}
+
+.drinks {
+  display: none;
+  padding: 20px;
+}
+
+.art {
+  display: none;
+  padding: 20px;
+}
+
+.altar {
+  display: none;
+  padding: 20px;
+}
+
+.funds {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  display: none;
+  padding: 20px;
+}
+
+.payment-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.qr-code {
+  height: 175px;
+  width: auto;
+}
