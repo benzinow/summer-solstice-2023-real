@@ -4,7 +4,6 @@ import Help from "./components/Help";
 import Rsvp from "./components/Rsvp";
 import Email from "./images/email.svg";
 import Phone from "./images/phone.svg";
-import Background from "./images/summer-solstice-invite-banner.png";
 
 function App() {
   return (
